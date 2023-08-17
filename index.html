@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Include Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><!-- jQuery --><script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!-- Bootstrap JS --><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <title>Daya Foundation</title>
+  </head>
+  <body>
+    <style>
+      
+   html{
+    font-size: 15px;
+   }
+    body {
+  font-family: 'Montserrat', sans-serif;
+
+  
+}
+.underline-text {
+  position: relative;
+}
+.underline-text::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  top: 50px;
+  left: 50%; 
+  transform: translateX(-50%); 
+  height: 4px;
+  width: 150px;
+  background-color: #f8d664; 
+}
+    .bg-light {
+      background-color: #a97425 !important;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+      padding-right: calc(var(--bs-gutter-x) * .25);
+    padding-left: calc(var(--bs-gutter-x) * .25);
+    }
+    </style>
+    <div class="row">
+      <div class="col-md-1">
+        <div>
+          <img width="100px" height="auto" src="images/Screen Shot 2023-08-04 at 15.25.17.png">
+        </div>
+      </div>
+      <div class="col-md-11 d-flex flex-column">
+        <nav class="navbar navbar-light d-flex">
+          <div style="padding-left: 160px; ">
+            <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Kathmandu,nepal</span>
+            </a>
+            <img height="50px" src="images/vline.png">
+            <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-phone"></i>
+              <span>977 98765432</span>
+            </a>
+            <img height="50px" src="images/vline.png">
+            <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-envelope"></i>
+              <span>info@nepal.com</span>
+            </a>
+          </div>
+        </nav>
+      </nav>
+    
+    
+
+  
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 20px;padding:30px">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link navigation" href="index.html" style="color: white;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html" style="color: white;">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html" style="color: white;">Our Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html" style="color: white;">Gallery</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+  </div>
+</div>
+<div class="container introduction">
+  <div class="row no-gutters d-flex align-items-center mt-4 mb-4">
+    <div class="col-12 col-md-6 col-lg-8 mb-4 mb-md-0">
+      <h1 class="fs-4" style="font-size: 90px;font-family: ruda !important">REGISTERED</h1>
+      <h1 class="text-warning" style="font-size: 75px; font-weight: 900;font-family: ruda; ">
+        NONPROFIT
+        <br>
+        ORGANIZATION
+      </h1>
+      <p class="mb-0 p-4">
+        We provide financial, technical, and volunteer assistance to different projects
+        <br>
+        running in areas of education, health, and culture.
+      </p>
+      <img class="img-fluid mt-3" style="max-width: 300px;" src="images/lines.png" alt="Lines">
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <img
+        class="img-fluid daya"
+        style="padding-bottom: 27px;"
+        width="300px"
+        height="auto"
+        src="images/daya design.jpg"
+        alt="Banner Image"
+      >
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row d-flex  flex-wrap">
+    <div class="col-md-8 col-lg-6 text-start">
+      <img class="img-fluid" src="images/group.jpg" alt="About Us">
+    </div>
+    <div class="col-md-3 col-lg-6 mt-4 mt-md-0">
+      <div class="mt-md-5">
+        <p class="mb-4">A small initiative driven by one man's dream to build a better community grew to become a data foundation. We honor Mr. Daya Ram Bhakta Mathama's vision, who has given us the purpose to serve our community.</p>
+        <button style="background-color: #a97425;color: white;padding: 10px;outline:none;border: none;">
+          READ MORE
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="parent">
+  <div class="child"></div>
+  <div class="parenttwo">
+    <div class="childtwo"></div>
+  </div>
+</div>
+<div class="container"></div>
+<br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4" > <img style="width: 400px;" src="images/dayaram.png" class="img-fluid" alt="Dayaram Mathama"></div>
+    <div class="col-lg-8">
+      <div id="wrap">
+        <h3>LATE Mr DayaRam Bhakta Mathema</h3>
+        <i>A Statesman , Philanthropist and social Entrepreneur</i>
+        <br>
+        <p style="font-size:16px">LATE Dayaram Bhakta Mathema, a man who devoted more than five decades of his life to state and public service, lived with the dream to see a better community with better opportunities for education, health service and preserved cultural legacy. Born on January 25, 1927, Mr. Mathema saw the bitter reality of Nepalese society with daunting status of education and health services during the early 40's itself when he worked as a statesman for the Royal family.<br><br>
+         
+      <a href="#" style="margin-bottom: 60px !important;" id="example-show" class="showLink" onclick="showHide('example');return false;">Read more.</a></p>
+        <div id="example" class="more">
+           <p style="font-size:16px">Emerging from this long-standing desire to contribute to the society, it cultivated a vision in Mr.Mathema that took the form of Daya Foundation. The Foundation has a firm aim to bring positive changes in education, health and culture.<br> Mr. Mathema also believed strongly in women's higher education and supported their empowerment. With this belief, Daya Foundation launched its first project "Kanti Ishwari Scholarship" on August, 2009 which has been providing scholarship to five women pursuing masters' course of women studies in Padma Kanya Campus, Tribhuwan University every year.<br><br>
+            There has been no looking back since then. The foundation has initiated mid-day meal program for Bidhodaya School, Kathmandu and Bhairav Prathmik School, Dhulikhel with the intention to fulfill nutritional needs of students studying in government schools.<br> It has been supporting another institution named Early Rehabilitation Centre (ERC) since its early days. The Foundation supports publication of Braille books every year, and also has launched social entrepreneurship activities for the visually-impaired. <br>The foundation began its intervention in health sector by joining hands with Dhulikhel hospital, Chetrapati clinic and Nepal Ambulance Service by sponsoring health service machines, and organizing comprehensive community health camps. Similarly, it is also actively engaged to restore temples, water sprouts and preserving the historic house of Mathema family situated at Om: Bahal tole, Kathmandu.<br>
+            Mr. Mathema passed away in 2008, but his vision and dream is alive in the form of Daya Foundation. The foundation is continuously working to develop ingenious programs for community welfare and development at present.</p>
+           <p><a href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">Show Less</a></p>
+        </div>
+      </div></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
+
+</div>
+<div class="container">
+  <div class="text blogtext text-center pb-5">
+    <h6 style="padding-top: 35px;">Our Work</h6>
+    <h1 class="underline-text">What we do</h1>
+  </div>
+  <div class="row gy-3">
+    <div class="col-md-4 col-sm-6 col-lg-4 work">
+      <div class="work1">
+        <img src="images/one.png" class="img-fluid" alt="Education">
+        <h3>Education</h3>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-lg-4 work">
+      <div class="work1">
+        <img src="images/two.png" class="img-fluid" alt="Health">
+        <h3>Health</h3>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-lg-4 work">
+      <div class="work1">
+        <img src="images/three.png" class="img-fluid" alt="Culture">
+        <h3>Culture</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="text blogtext text-center pb-5">
+    <h6 style="padding-top: 30px;padding-bottom: 30px;">Reach out, Impact Lives</h6>
+    <h1 class="underline-text">Get in Touch</h1>
+  </div>
+</div>
+
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <input type="text" class="form-control mb-3" placeholder="Full Name">
+      <input type="text" class="form-control mb-3" placeholder="Your Email">
+      <textarea class="form-control" rows="4" style="padding-bottom: 20px;margin-bottom:20px;">Message</textarea>
+      <button style="width:100%;padding-bottom: 20px;margin-bottom: 20px;background-color: #a97425;color:white;outline: none; border: none; padding-top:17px; text-align: center;">Submit</button>
+    </div>
+    <div class="col-lg-6">
+      <img class="img-fluid" src="images/dayamap.png" alt="Map">
+    </div>
+  </div>
+</div>
+
+<div class="text blogtext text-center" style="padding-bottom: 40px;">
+  <h6 style="padding-top: 40px; margin-bottom: 0;">Moments Captured in Frames</h6>
+  <h1 class="underline-text">Gallery</h1>
+</div>
+
+<div class="tabset container text-center gap-4">
+  <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
+  <label for="tab1"><i class="fas fa-image"></i>   Image</label>
+
+  <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
+  <label for="tab2"><i class="fas fa-video"></i>  Video</label>
+
+  <div class="tab-panels">
+    <section id="marzen" class="tab-panel">
+      <img class="img-fluid" width="300px" height="auto" src="images/about.png">
+      <img class="img-fluid" width="300px" height="auto" src="images/edu.png">
+      <img class="img-fluid" width="300px" height="200px" src="images/group.jpg">
+      <img class="img-fluid" width="300px" height="200px" src="images/open.jpg">
+    </section>
+    <section id="rauchbier" class="tab-panel">
+      <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <section id="dunkles" class="tab-panel">
+      <h2>6C. Dunkles Bock</h2>
+      <p><strong>Overall Impression:</strong> A dark, strong, malty German lager beer that emphasizes the malty-rich and somewhat toasty qualities of continental malts without being sweet in the finish.</p>
+      <p><strong>History:</strong> Originated in the Northern German city of Einbeck, which was a brewing center and popular exporter in the days of the Hanseatic League (14th to 17th century). Recreated in Munich starting in the 17th century. The name “bock” is based on a corruption of the name “Einbeck” in the Bavarian dialect, and was thus only used after the beer came to Munich. “Bock” also means “Ram” in German, and is often used in logos and advertisements.</p>
+    </section>
+  </div>
+</div>
+
+<div class="container-fluid" style="background-color:#f3f3f3; padding-bottom: 40px;">
+  <div class="text blogtext text-center" style="padding:40px;margin: 30px;">
+    <h6>Volunteer, Transform communities</h6>
+    <h1 class="underline-text">Volunteer With Us</h1>
+  </div>
+  <div class="row d-flex flex-wrap justify-content-center">
+    <div class="col-md-8 col-lg-4 text-start mb-4 mb-md-0">
+      <img style="padding-left: 30px;" class="img-fluid" src="images/vol.png" alt="About Us">
+    </div>
+    <div class="col-md-10 col-lg-8 mt-1 mt-md-0">
+      <div class="mt-md-5">
+        <p class="mb-1">
+          be a
+          <br>
+          <h1 style="color:#a97425;font-weight: 900;">VOLUNTEER</h1>
+        </p>
+        <p>
+          Be a Change Maker and empower Lives by joining us as a Volunteer. Together, let's make a
+          <br>
+          lasting impact and transform communities for the better.
+        </p>
+        <button style="background-color: #a97425;color: white;padding: 10px;outline: none;border: none;margin-top: -20px;">Apply Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="testimonial-carousel-container">
+  <div class="header-title">
+    <div class="text blogtext text-center">
+      <h6>See What our clients have to say</h6>
+      <h1 class="underline-text">TESTIMONIALS</h1>
+    </div>
+  </div>
+  <div class="carousel">
+    <div class="prev">
+      <svg viewBox="0 0 256 512" width="30" title="angle-left" fill="currentColor">
+        <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/>
+      </svg>
+    </div>
+    <div class="testimonials">
+      <div class="carousel-testimonial active">
+        <div class="testimonial-initials">RM</div>
+        <div class="testimonial-content">
+          <div class="testimonial-name-and-location">
+            <div class="testimonial-name">Ronald M</div>
+            <div class="testimonial-location">McDonaldland</div>
+          </div>
+          <div class="testimonial-quote">Beef ribs chislic andouille, t-bone doner flank picanha hamburger chuck porchetta biltong swine. Shankle shank turducken ball tip doner.</div>
+        </div>
+      </div>
+      <div class="carousel-testimonial activeRight">
+        <div class="testimonial-initials">G</div>
+        <div class="testimonial-content">
+          <div class="testimonial-name-and-location">
+            <div class="testimonial-name">Grimace</div>
+          </div>
+          <div class="testimonial-quote"> Cupim venison bacon ribeye pork loin, cow beef burgdoggen. Tenderloin cow pig, drumstick kielbasa pork chop chicken fatback swine ham hock spare ribs kevin t-bone.</div>
+        </div>
+      </div>
+      <div class="carousel-testimonial">
+        <div class="testimonial-initials">TH</div>
+        <div class="testimonial-content">
+          <div class="testimonial-name-and-location">
+            <div class="testimonial-name">The Hamburglar</div>
+          </div>
+          <div class="testimonial-quote">Porchetta strip steak turkey capicola. Ham hock landjaeger venison, jowl tenderloin kielbasa doner turkey tri-tip meatloaf alcatra.</div>
+        </div>
+      </div>
+      <div class="carousel-testimonial">
+        <div class="testimonial-initials">MM</div>
+        <div class="testimonial-content">
+          <div class="testimonial-name-and-location">
+            <div class="testimonial-name">Mayor McCheese</div>
+            <div class="testimonial-location">McDonaldland</div>
+          </div>
+          <div class="testimonial-quote">Leberkas fatback burgdoggen frankfurter corned beef salami. Tenderloin pork chop bresaola, andouille cupim cow short loin. Alcatra capicola spare ribs kevin chicken, tri-tip tenderloin.</div>
+        </div>
+      </div>
+      <div class="carousel-testimonial activeLeft">
+        <div class="testimonial-initials">BE</div>
+        <div class="testimonial-content">
+          <div class="testimonial-name-and-location">
+            <div class="testimonial-name">Birdie the Early Bird</div>
+            <div class="testimonial-location">Giant Egg</div>
+          </div>
+          <div class="testimonial-quote">Chicken kielbasa strip steak spare ribs, porchetta turducken ribeye kevin jowl filet mignon meatloaf rump tail.</div>
+        </div>
+      </div>
+    </div>
+    <div class="next">
+      <svg fill="currentColor" viewBox="0 0 256 512" width="30" title="angle-right">
+        <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/>
+      </svg>
+    </div>
+  </div>
+  <!-- /* iterate nav */ -->
+  <div class="testimonial-nav">
+    <button class="testimonial-navitem active" aria-label="go to testimonial from Ronald M" onclick="gotoTestimonial(0)">
+      <span>Ronald M</span>
+    </button>
+    <button class="testimonial-navitem" aria-label="go to testimonial from Grimace" onclick="gotoTestimonial(1)">
+      <span>Grimace</span>
+    </button>
+    <button class="testimonial-navitem" aria-label="go to testimonial from The Hamburglar" onclick="gotoTestimonial(2)">
+      <span>The Hamburglar</span>
+    </button>
+    <button class="testimonial-navitem" aria-label="go to testimonial from Mayor McCheese" onclick="gotoTestimonial(3)">
+      <span>Mayor McCheese</span>
+    </button>
+    <button class="testimonial-navitem" aria-label="go to testimonial from Birdie the Early Bird" onclick="gotoTestimonial(4)">
+      <span>Birdie the Early Bird</span>
+    </button>
+  </div>
+</div>
+<!-- <div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center pb-5">
+        <div class="text blogtext">
+          <h6>Writings From our Team</h6>
+          <h1 class="underline-text">BLOGS</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-sm-12 col-md-4">
+        <div class="position-relative">
+          <img class="img-blog" src="images/one.png">
+          <div class="blog-content">
+            <h4>International Yoga Day</h4>
+            <span class="blog-date">June 21</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="position-relative">
+          <img class="img-blog" src="images/open.jpg">
+          <div class="blog-content">
+            <h4>International Yoga Day</h4>
+            <span class="blog-date">June 21</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="position-relative">
+          <img class="img-blog" src="images/one.png">
+          <div class="blog-content">
+            <h4>International Yoga Day</h4>
+            <span class="blog-date">June 21</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="text">
+          <h6 style="padding-top: 35px;">Bringing Stronger Together</h6>
+          <h1 class="underline-text">PARTNERS</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container partner">
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="partner">
+        <div class="partnerone">
+          <img class="img-fluid" src="images/partner.png" alt="Partner One">
+          <p class="title text-center font-weight900">
+            <b>TITLE NAME</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="partner">
+        <div class="partnertwo">
+          <img class="img-fluid" src="images/partner.png" alt="Partner Two">
+          <p class="title text-center font-weight900">
+            <b>TITLE NAME</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="partner">
+        <div class="partnerthree">
+          <img class="img-fluid" src="images/partner.png" alt="Partner Three">
+          <p class="title text-center font-weight900">
+            <b>TITLE NAME</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="text blogtext text-center">
+  <h6>Building Stronger Together</h6>
+  <h1 class="underline-text">PARTNERS</h1>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="news-slider" class="owl-carousel">
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+         
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=503" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1564979268369-42032c5ca998?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=500" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1576659531892-0f4991fca82b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+         
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1586083702768-190ae093d34d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=305&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=505" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+         
+        </div>
+
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1484656551321-a1161420a2a0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=306&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=506" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="footer">
+  <div class="container-fluid" style="background-color:#f3f3f3">
+    <div class="row footerrow">
+      <div class="col-md-4 mb-4">
+        <div class="intro text-center" style="padding-left: 40px;margin: 20px;">
+          <div class="image text-start">
+            <img src="images/Screen Shot 2023-08-04 at 15.25.17.png" width="100px" alt="">
+          </div>
+          <h3 class="text-start" style="font-weight: 900;">DAYA FOUNDATION</h3>
+          <h6 class="text-start" style="line-height: 30px;">
+            Creating Change Together
+            <br>
+            Supporting Education
+            <br>
+            Health and Culture
+            <br>
+            Projects
+          </h6>
+        </div>
+      </div>
+      <div class="col-md-2 mb-4" style="margin-top: 40px;">
+        <div class="quick-links">
+          <h3>
+            <span class="quicklinks">Q</span>
+            uick Links
+          </h3>
+          <h6 style="line-height: 30px;">Home</h6>
+          <h6 style="line-height: 30px;">About Us</h6>
+         
+          <h6>Contact Us</h6>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" style="margin-top: 40px;">
+        <div class="contact-us">
+          <h3>
+            <span class="quicklinks">C</span>
+            ontact Us
+          </h3>
+          <p>
+            <i class="fa-solid fa-house"></i>
+            ADDRESS
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            PHONE NO
+          </p>
+          <p>
+            <i class="fa-solid fa-book"></i>
+            Web ADDRESS
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" style="margin-top: 100px;">
+        <div class="social text-center">
+          <h4>
+            <a style="color:black; text-decoration: none;font-weight: 900;" href="#top"><span class="material-symbols-outlined" style="font-size: 50px;color: #a97425;">
+              arrow_upward
+              </span></a>
+              <span class="material-symbols-sharp">
+</span>
+            <a style="color:black; text-decoration: none;font-weight: 900;" href="#top"><span class="material-symbols-outlined" style="font-size: 50px;color: #F8D664;">
+            
+              </span></a>
+              <span class="material-symbols-sharp">
+</span>
+          </h4>
+          <br>
+          <img width="200px" src="images/socialimage.png" alt="Social Image">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 text-center">
+    <div class="copyright" style="background-color:#a97425;padding: 20px;color:rgb(245, 239, 239)">
+      © Copyright 2023. All Rights Reserved. Easy Software
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script></script>
+<script>
+  const testimonials = document.querySelectorAll(".carousel-testimonial");
+  const testimonialNavItems = document.querySelectorAll(".testimonial-navitem");
+
+  let currentTestimonialIndex = 0;
+
+  function showTestimonial(index) {
+    testimonials.forEach((testimonial, i) => {
+      testimonial.classList.remove("active", "activeLeft", "activeRight");
+      testimonialNavItems[i].classList.remove("active");
+    });
+
+    testimonials[index].classList.add("active");
+    testimonials[(index - 1 + testimonials.length) % testimonials.length].classList.add("activeLeft");
+    testimonials[(index + 1) % testimonials.length].classList.add("activeRight");
+    testimonialNavItems[index].classList.add("active");
+
+    currentTestimonialIndex = index;
+  }
+
+  function gotoTestimonial(index) {
+    showTestimonial(index);
+  }
+
+  document.querySelector(".prev").addEventListener("click", () => {
+    const prevIndex = (currentTestimonialIndex - 1 + testimonials.length) % testimonials.length;
+    showTestimonial(prevIndex);
+  });
+
+  document.querySelector(".next").addEventListener("click", () => {
+    const nextIndex = (currentTestimonialIndex + 1) % testimonials.length;
+    showTestimonial(nextIndex);
+  });
+
+  showTestimonial(currentTestimonialIndex); // Show initial testimonial
+</script>
+<script>
+  function showTabContent(tabIndex) {
+    const tabContents = document.querySelectorAll('.tab-content > div');
+    const tabs = document.querySelectorAll('.tab');
+    
+    tabContents.forEach(content => {
+      content.style.display = 'none';
+    });
+    
+    tabs.forEach(tab => {
+      tab.classList.remove('active');
+    });
+    
+    tabContents[tabIndex].style.display = 'block';
+    tabs[tabIndex].classList.add('active');
+  }
+</script>
+<script>
+  // JavaScript code to handle the button click and show/hide content
+  const button = document.getElementById("readMoreButton");
+  const hiddenContent = document.getElementById("hiddenContent");
+
+  button.addEventListener("click", function () {
+      if (hiddenContent.style.display === "none") {
+          hiddenContent.style.display = "block";
+      } else {
+          hiddenContent.style.display = "none";
+      }
+  });
+</script>
+<script>
+  function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the link that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+  function handleReadMore() {
+    const readMoreButton = document.getElementById('readMoreButton');
+    const hiddenContent = document.getElementById('hiddenContent');
+
+    readMoreButton.addEventListener('click', () => {
+      hiddenContent.style.display = 'block';
+      readMoreButton.style.display = 'none';
+    });
+  }
+
+  handleReadMore();
+</script>
+
+
+
+<script>document.addEventListener('DOMContentLoaded', function () {
+  const readMoreButton = document.getElementById('readMoreButton');
+  const expandedText = document.getElementById('expandedText');
+  
+  readMoreButton.addEventListener('click', function () {
+      if (expandedText.classList.contains('hidden')) {
+          expandedText.classList.remove('hidden');
+          readMoreButton.style.bottom = `-${expandedText.clientHeight}px`; // Move the button down by the height of the expanded text
+      } else {
+          expandedText.classList.add('hidden');
+          readMoreButton.style.bottom = '0';
+      }
+  });
+});
+</script>
+
+
+
+
+
+<script>
+  const expandButton = document.getElementById('expandButton');
+const expandedText = document.getElementById('expandedText');
+
+expandButton.addEventListener('click', () => {
+    if (expandedText.classList.contains('hidden')) {
+        expandedText.classList.remove('hidden');
+        expandButton.textContent = 'Collapse Text';
+    } else {
+        expandedText.classList.add('hidden');
+        expandButton.textContent = 'Expand Text';
+    }
+});
+
+</script>
+
+</script>
+<script>
+
+  </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const expandButton = document.getElementById('expandButton');
+    const expandedText = document.getElementById('expandedText');
+    
+    expandButton.addEventListener('click', function () {
+        if (expandedText.classList.contains('hidden')) {
+            expandedText.classList.remove('hidden');
+            expandButton.textContent = 'Read Less';
+            expandButton.style.bottom = `-${expandedText.clientHeight}px`; // Move the button down by the height of the expanded text
+        } else {
+            expandedText.classList.add('hidden');
+            expandButton.textContent = 'Read More';
+            expandButton.style.bottom = '0';
+        }
+    });
+});
+
+</script>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+<script>
+  function toggleDescriptionHeight(e) {
+
+// Toggle .expanded class
+document.querySelector(".backwhite").classList.toggle('expanded');
+
+// Toggle textContent of the button
+e.target.textContent == 'Expand' ? e.target.textContent = 'Collapse' : e.target.textContent = 'Expand'; 
+
+}
+
+// Add event listener to button click   
+var buttons = document.querySelector('.btn');
+button.addEventListener('click', toggleDescriptionHeight)
+jQuery(document).ready(function(){
+jQuery('.btn').click(function(){
+  jQuery('.backwhite').toggle('slow');
+});
+});
+</script>
+<script>function showHide(shID) {
+  if (document.getElementById(shID)) {
+     if (document.getElementById(shID+'-show').style.display != 'none') {
+        document.getElementById(shID+'-show').style.display = 'none';
+        document.getElementById(shID).style.display = 'block';
+     }
+     else {
+        document.getElementById(shID+'-show').style.display = 'inline';
+        document.getElementById(shID).style.display = 'none';
+     }
+  }
+}</script>
+<script>
+  $(document).ready(function() {
+    $("#news-slider").owlCarousel({
+        items : 3,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:true
+    });
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+
+
+</body>
+</html>
